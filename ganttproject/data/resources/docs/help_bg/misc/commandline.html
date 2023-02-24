@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>License</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body charset="windows-1251">
+
+<H3>GanttProject - Команди от конзола</H3>
+
+Ganttproject ви позволява да зададете някои параметри, ползвайки командна конзола.<br>
+Въведете <b>java -jar ganttproject.jar --help</b> за да видите възможните параметри.<br><br>
+
+Първо, можете да зададете директно xml файл за отваряне от GanttProject.<br>
+Например : <b>java -jar ganttproject.jar myproject.xml</b><br><br>
+
+Втората възможност е да експортирате проект като HTML страници, PDF документ или PNG/JPG изображение.<br>
+Например : <b>java -jar ganttproject.jar -html myproject.xml directory</b> да експортирате проект като интернет страница в указана от вас папка.<br>
+Например : <b>java -jar ganttproject.jar -pdf  myproject.xml myproject.pdf</b> да експортирате гант графика като myproject.pdf.<br>
+Например : <b>java -jar ganttproject.jar -png  myproject.xml myproject.png</b> да експортирате гант графика като myproject.png.<br>
+Например : <b>java -jar ganttproject.jar -jpg  myproject.xml myproject.jpg</b> да експортирате гант графика като myproject.jpg.<br><br>
+
+Когато експортирате проект като интернет страница, можете да укажете xsl папка ползвайки -xsl-dir argument.<br><br>
+
+Във всички тези случаи проекта може да бъде зададен като файл на локалния диск или URL.  Ако URL-ът е защитен с парола, можете да се идентифицирате ето така:<br>
+Например : <b>java -jar ganttproject.jar http://username:password@example.com/filename</b><br>
+
+
+</body>
+</html>

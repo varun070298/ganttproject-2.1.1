@@ -1,0 +1,81 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>Intéraction sur les tâches</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body>
+
+<h3>Intéractions sur les tâches</h3>
+
+<h4>Déplacer une ou plusieurs tâches</h4>
+Vous pouvez directement déplacer les tâches sur le graphique à l'aide de
+la souris.
+<ul>
+	<li>sélectionnez une ou plusieurs tâches (pour sélectionner plusieurs tâches,
+	maintenez la touche <b>CRTL</b> enfoncée tout en cliquant sur les tâches
+	que vous voulez sélectionner)&nbsp;;</li>
+	<li>relâchez la touche <b>CRTL</b> si vous l'aviez enfoncée&nbsp;;</li>
+	<li>cliquez avec le bouton du milieu de la souris sur une des tâches
+	sélectionnées et maintenez le enfoncé&nbsp;;</li>
+	<li>déplacez votre souris (vers la droite ou la gauche) pour déplacer les
+	tâches sélectionnées&nbsp;;</li>
+	<li>relâchez le bouton du milieu de la souris à l'endroit où vous voulez
+	<i>déposer</i> les tâches.</li>
+</ul>
+<b color ="red">ATTENTION&nbsp;: </b> Une fois le bouton relâché, GanttProject 
+recalcule les dépendances entre les tâches, il se peut que certaines tâches soient
+alors déplacées pour satisfaire les dépendances qui les concernent.
+
+<h4>Modifier la durée d'une tâche</h4>
+Vous pouvez modifier la durée d'une tâche directement sur le diagramme de Gantt
+à l'aide de votre souris.
+<ul>
+	<li>déplacer le curseur de votre souris à l'une des extrémités du rectangle
+	représentant la tâche dont vous voulez modifier la durée&nbsp;;</li>
+	<li>un curseur particulier pour le redimensionnement apparaît&nbsp;;</li>
+	<li>cliquez sur le bouton gauche de votre souris et maintenez le enfoncé&nbsp;;</li>
+	<li>déplacer votre souris et relâchez le bouton pour modifier la durée de la tâche.</li>
+</ul>
+
+<h4>Modifier l'avancée d'une tâche</h4>
+Vous pouvez modifier l'avancée d'une tâche directement sur le diagramme de Gantt
+à l'aide de votre souris. L'avancée d'une tâche se matérialise par une barre noire
+horizontale dans le rectangle représentant une tâche.<br \>
+<center><img src="../images/progress.png"></center>
+Pour modifier l'avancée d'une tâche&nbsp;: 
+<ul>
+	<li>déplacez le curseur de votre souris sur la barre d'avancée (si l'avancée
+	est égale à 0 %, la barre est invisible, il faut déplacer votre souris à 
+	l'extrémité gauche de la tâche)&nbsp;;</li>
+	<li>dès que le curseur <img src="../images/cursorpercent.png">&nbsp; apparaît maintenez
+	le bouton gauche de la souris enfoncé&nbsp;;</li>
+	<li>déplacez votre souris pour modifier l'avancée de la tâche.</li>
+</ul>
+
+<h4>Créer des relations entre tâches</h4>
+Vous pouvez créer des relations entre tâches directement sur le diagramme de Gantt.
+Cependant, les relations créer ainsi ne seront que du type Fin-Début initiallement.
+<ul>
+	<li>cliquez et maintenez le boutons gauche de la souris sur une tâche 
+	(cette tâche précédera celle que vous indiquerez plus tard)&nbsp;;</li>
+	<li>déplacez votre souris sur la tâche qui doit dépendre de la première&nbsp;;</li>
+	<li>une flèche se dessine (img 1.);</li>
+	<li>relâchez le bouton de la souris, la relation Fin-Début est créée (img 2.).</li>
+</ul>
+<table align="center">
+<tralign="center" >
+<td><img align="middle" src="../images/rel1.png"></td>
+<td>&nbsp;</td>
+<td><img align="middle" src="../images/rel2.png"></td>
+</tr>
+<tr align="center">
+<td>img 1.</td>
+<td></td>
+<td>img 2.</td>
+</tr>
+</table>
+
+
+</body>
+</html>

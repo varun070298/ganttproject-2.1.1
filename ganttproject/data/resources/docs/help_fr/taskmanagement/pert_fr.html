@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>Réseau PERT</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body>
+<h3>Réseau PERT</h3>
+Si le plugin PERT est installé, GanttProject vous permet de visualiser le projet courant en
+réseau PERT (<em>Program Evaluation and Research Task</em> ou <em>Program Evaluation and Review Technique</em>).
+
+<h4>Comment savoir si PERT est disponible sur ma version de GanttProject ?</h4>
+<ul>
+	<li>si le menu <b>Affichage</b> ne contient pas l'élément <b>Diagramme de PERT</b>, PERT n'est pas disponible&nbsp;;</li>
+	<li>sinon PERT est disponible.</li>
+</ul>
+
+<h4>Visualiser le réseau PERT</h4>
+<ul>
+	<li>aller dans le menu <b>Affichage</b>&nbsp;;</li>
+	<li>cliquer sur <b>Diagramme de PERT</b>&nbsp;;</li>
+	<li>un nouvel onglet apparaît avec le réseau PERT correspondant au projet courant.</li>
+</ul>
+<center><img src="../images/pert.png"></center>
+
+<h4>Explications</h4>
+Le réseau PERT de GanttProject reprend le formalisme des tâches sur les noeuds et non celui des états
+sur les noeuds et des tâches sur les arcs.
+Chaque noeud du réseau PERT correspond donc à une tâche définie dans GanttProject.
+<p>
+Pour différencier les tâches mères, les points bilan et les tâches normales, les rectangles ont des contours
+de couleurs différentes&nbsp;: 
+<ul>
+	<li title="test"><img src="../images/pertMotherTask.png" vspace="2" align="middle">&nbsp;: est une tâche mère (bordure rouge)&nbsp;;</li>
+	<li><img src="../images/pertMilestone.png" vspace="2" align="middle">&nbsp;: est un point bilan (bordure noire)&nbsp;;</li>
+	<li><img src="../images/pertNormalTask.png" vspace="2" align="middle">&nbsp;: est une tâche normale (bordure bleue)&nbsp;;</li>
+	<li><img src="../images/pertCritical.png" vspace="2" align="middle">&nbsp;: est une tâche critique (fond jaune).</li>
+</ul>
+</p>
+
+</body>
+</html>

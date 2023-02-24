@@ -1,0 +1,105 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>Divers</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body>
+
+<h3>Divers</h3>
+Cette section regroupe diverses fonctionnalités relatives à la gestion des tâches.
+
+<h4>Chemin critique</h4>
+GanttProject est capable d'afficher le chemin critique d'un projet dans la vue Gantt.
+Cliquez sur le bouton <b>Chemin ciritique</b> <img src="../images/criticalPathOff_24.gif"> &nbsp; pour
+afficher le chemin critique du projet. Les tâches critiques sont hachurées, les tâches mères critiques sont rouges.
+<center><img src="../images/criticalPath.png"></center>
+Vous pouvez demander à ce que l'affichage du chemin critique ne soit plus actif en cliquant à nouveau sur le
+bouton <b>Chemin critique</b>.
+
+<h4>Alertes de retards</h4>
+GanttProject peut identifier les retards qui apparaissent sur le planning. Le retard, pour GanttProject,
+est défini comme suit&nbsp;:
+<p>
+<cite>une tâche est en retard si sa date de fin est antérieure ou égale à la date d'aujourd'hui et que son avancée n'est pas de 100 %.</cite>
+</p>
+<p>
+Deux types de retards sont identifiables&nbsp;:
+<ul>
+	<li>retards normaux <img src="../images/alert1_16.gif">&nbsp;;</li>
+	<li>retards affectant les tâches critiques <img src="../images/alert2_16.gif">.</li>
+</ul>
+Les icônes ci-dessus, signalant les retards, apparaisent dans la colonnes <b>Info</b> du tableau des tâches.
+<br \><b>N.B.</b>&nbsp;: Pour être sûr de voir les retards, assurez-vous que la colonne <b>Info</b> est visible.
+</p>
+
+<h4>Cacher des tâches</h4>
+GanttProject vous permet de cacher certaines tâches du diagramme pour plus de lisibilité. Pour ce faire, sélectionnez les tâches que vous voulez cacher, puis cliquez avec le bouton droit
+dans le tableau de tâches, puis cliquez sur <b>Cacher les tâches sélectionnées</b>.
+<p> Pour afficher les tâches précédemment cachée, cliquez sur <b>Afficher les tâches cachées</b>.
+</p>
+
+<h4>Insérer des lignes séparatrices</h4>
+Pour gagner en lisibilité, il est possible d'insérer des lignes séparatrices (lignes vides) dans le
+tableau des tâches.
+<p> Insérer un ligne séparatrice, cliquez sur <b>Insérer un ligne séparatrice</b>.
+</p>
+
+<h4>Annuler/Rétablir</h4>
+Désormais, GanttProject supporte l'annulation et le rétablissement d'actions (Undo/Redo). Vous pouvez utiliser au choix&nbsp;:
+<ul>
+	<li>les boutons <img src="../images/undo.gif">&nbsp; et <img src="../images/redo.gif">&nbsp;&nbsp;;</li>
+	<li>les menus <b>Edition</b>, puis <b>Annuler</b> ou <b>Rétablir</b>&nbsp;;</li>
+	<li>les raccourcis clavier <b>Crtl+Z</b> et <b>Ctrl+Y</b>.</li>	
+</ul>
+
+<h4>Ouvrir la fenêtre des propriétés des tâches</h4>
+Par défaut, lors de la création d'une tâches vous pouvez directement entrez son nom dans le tableau. Une option permet
+d'ouvrir la fenêtre de propriétés d'une tâche à sa création.
+<ul>
+	<li>menu <b>Edition</b>, <b>Préférences</b>&nbsp;;</li>
+	<li>option <b>Général</b>, <b>Paramètres</b>&nbsp;;</li>	
+	<li>cochez la case <b>Ouvrir la fenêtre de propriétés</b>.</li>
+</ul>
+
+<h4>Ligne rouge pour aujourd'hui</h4>
+Vous pouvez afficher une ligne verticale rouge à la datre d'ajourd'hui dans le diagramme de Gantt&nbsp;:
+<center><img src="../images/redLine.png"></center>
+<ul>
+	<li>menu <b>Edition</b>, <b>Préférences</b>&nbsp;;</li>
+	<li>option <b>Général</b>, <b>Paramètres</b>&nbsp;;</li>	
+	<li>cochez la case <b>Ligne rouge pour aujourd'hui</b>.</li>
+</ul>
+
+<h4>Préfixe pour le nom des nouvelles tâches</h4>
+Vous pouvez définir le nom par défaut des tâches lors de leur création&nbsp;: 
+<ul>
+	<li>menu <b>Edition</b>, <b>Préférences</b>&nbsp;;</li>
+	<li>option <b>Général</b>, <b>Paramètres</b>&nbsp;;</li>	
+	<li>éditez le champ <b>Préfixe du nom de tâche</b>.</li>
+</ul>
+
+<h4>Couleur par défaut d'une tâche</h4>
+Vous pouvez modifier la couleur par défaut des tâches&nbsp;:
+<ul>
+	<li>menu <b>Edition</b>, <b>Préférences</b>&nbsp;;</li>
+	<li>option <b>Général</b>, <b>Couleurs</b>&nbsp;;</li>	
+	<li>cliquez sur le bouton <b>Couleur</b> en face de <b>Tâche</b>&nbsp;;</li>
+	<li>choisissez la couleur par défaut désirée.</li>
+</ul>
+
+<h4>Modifier les propriétés de plusieurs tâches</h4>
+Il est possible de modifier les propriétés de plusieurs tâches en une seule opération&nbsp;:
+<ul>
+	<li>sélectionnez les tâches dont vous voulez modifier les propriétés&nbsp;;</li>
+	<li>cliquez sur le bouton <img src="../images/properties_16.gif">&nbsp;;</li>
+	<li>la fenêtre des propriétés s'ouvre&nbsp;;</li>
+	<li>modifiez les valeurs que vous voulez affecter à toutes les tâches&nbsp;;</li>
+	<li>validez.</li>
+</ul>
+<p><b>N.B.</b>&nbsp;: Uniquement les valeurs modifiées seront appliquées à toutes les tâches
+sélectionnées. Les autres valeurs ne seront pas modifiées.
+</p>
+
+</body>
+</html>

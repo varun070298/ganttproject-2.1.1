@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"  ?>
+				 
+<toc>
+	<tocitem text="Първи стъпки" >
+		<tocitem text="Преглед"  target="firststep/overview.html" home="true"/>		
+		<tocitem text="Откъде мога да изтегля новите версии?" target="firststep/releases.html"/>
+		<tocitem text="Къде се намира CVS?" target="firststep/cvs.html"/>
+		<tocitem text="Стартиране на GanttProject" target="firststep/run.html"/>
+	</tocitem>
+	<tocitem text="Гант график">
+		<tocitem text="Добавяне на нова задача" target="ganttchart/create.html"/>
+		<tocitem text="Зависимости" target="ganttchart/relationships.html"/>
+		<tocitem text="Редактиране на параметри" target="ganttchart/properties.html"/>
+	</tocitem>
+	<tocitem text="Ресурси">
+		<tocitem text="Добавяне на Нов Ресурс" target="resources/create.html"/>
+		<tocitem text="Възлагане на задача" target="resources/assign.html"/>
+		<tocitem text="График на Ресурсите" target="resources/chart.html"/>
+	</tocitem>
+	<tocitem text="Запазване и експортиране">
+		<tocitem text="XML формат" target="file/xml.html"/>
+		<tocitem text="PNG/JPG" target="file/pngjpg.html"/>
+		<tocitem text="HTML/PDF" target="file/htmlpdf.html"/>
+		<tocitem text="Интернет сървър" target="file/webserver.html"/>
+	</tocitem>
+	<tocitem text="Разни">
+		<tocitem text="Команди от конзола" target="misc/commandline.html"/>
+		<tocitem text="Настройки" target="misc/options.html"/>
+	</tocitem>
+	<tocitem text="Лиценз" target="license.html"/>
+	<tocitem text="Адреси и връзки">
+		<tocitem text="Електронни адреси" target="contacts/mails.html"/>
+		<tocitem text="Приноси" target="contacts/contributions.html"/>
+		<tocitem text="Връзки" target="contacts/links.html"/>
+	</tocitem>
+</toc>

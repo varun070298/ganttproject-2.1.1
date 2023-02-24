@@ -1,0 +1,104 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>Importation/Exportation</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body>
+
+<h3>Importation/Exportation</h3>
+
+<b color="red">ATTENTION</b>&nbsp;: Les fonctionnalité d'importation et d'exportation sont actuellement
+remaniées. Les informations ci-dessous sont sujettes à changements dans les prochaines versions de
+GanttProject.
+
+<h4>Importation</h4>
+GanttProject vous permet d'importer des projets provenant de&nbsp;:
+<ul>
+	<li>GanttProject&nbsp;;</li>
+	<li>Microsoft&reg; Office Project.</li>
+</ul>
+<p>Vous pouvez également importer des listes des tâches provenant de fichier texte (ASCII).
+</p>
+
+<h5>Importation d'un projet de GanttProject</h5>
+<ul>
+	<li>cliquez sur le menu <b>Fichier</b>, puis <b>Importer</b> ou cliquez sur le bouton <b>Importer</b>
+	<img src="../images/import_16.gif">&nbsp;;</li>
+	<li>choisissez l'importeur GanttProject et validez&nbsp;;</li>
+	<li>sélectionnez le fichier GanttProject que vous voulez importer&nbsp;;</li>
+	<li>lors de l'importation, vous pouvez choisir d'ajouter les tâches au projet existant ou de supprimer le
+	projet existant.</li>
+</ul>
+<h5>Importation d'un projet de Microsoft&reg; Office Project</h5>
+<ul>
+	<li>cliquez sur le menu <b>Fichier</b>, puis <b>Importer</b> ou cliquez sur le bouton <b>Importer</b>
+	<img src="../images/import_16.gif">&nbsp;;</li>
+	<li>choisissez l'importeur Microsoft&reg; Office Project et validez&nbsp;;</li>
+	<li>sélectionnez le fichier Microsoft&reg; Office Project que vous voulez importer (GanttProject
+	sait importer les fichiers MPX (Microsoft Project Exchange), MPP (Microsoft Project) et 
+	MSPDI (Microsoft Project Data Interchange)&nbsp;;</li>
+	<li>lors de l'importation, vous pouvez choisir d'ajouter les tâches au projet existant ou de supprimer le
+	projet existant.</li>
+</ul>
+<h5>Importation d'une liste de tâches provenant d'un fichier texte</h5>
+Le formalisme des fichiers textes est extrêmement simple&nbsp;: une ligne correspond au nom d'une tâche. 
+Lors de la lecture du fichier, GanttProject va donc créer une tâche par ligne du fichier, le nom de la
+tâche créée sera exactement celle de la ligne lue.
+<ul>
+	<li>cliquez sur le menu <b>Fichier</b>, puis <b>Importer</b> ou cliquez sur le bouton <b>Importer</b>
+	<img src="../images/import_16.gif">&nbsp;;</li>
+	<li>choisissez l'importeur de fichiers texte et validez&nbsp;;</li>
+	<li>sélectionnez le fichier texte contenant les noms des tâches que vous voulez importer&nbsp;;</li>
+	<li>lors de l'importation, vous pouvez choisir d'ajouter les tâches au projet existant ou de supprimer le
+	projet existant.</li>
+</ul>
+
+<h4>Exportation</h4>
+GanttProject vous permet d'exporter les projets en différent format&nbsp;:
+<ul>
+	<li>PDF (<em>Portable Document Format</em>)&nbsp;;</li>
+	<li>HTML (<em>HyperText Markup Language</em>)&nbsp;;</li>
+	<li>PNG (<em>Portable Network Graphics</em>);</li>
+	<li>fichiers Microsoft&reg; Office Project.</li> 
+</ul>
+
+<b>N.B.</b>&nbsp;: les exportations sont en train d'être pluginisées, l'accès à ces fonctionnalités
+n'est pas stable, c'est pourquoi certaines sections suivantes sont vides pour l'instant.
+<h5>Exportation PDF</h5>
+En cours de modification...
+<ul>
+</ul>
+
+<h5>Exportation HTML</h5>
+En cours de modification...
+<ul>
+</ul>
+
+<h5>Exportation PNG</h5>
+En cours de modification...
+<ul>
+</ul>
+
+<h5>Exportation en fichiers Microsoft&reg; Office Project</h5>
+Cette fonctionnalité n'est disponible que si la version de GanttProject dont
+vous disposez contient le plugin d'exportation et d'importation MS-Project.
+
+<ul>
+	<li>cliquez sur le menu <b>Fichier</b>, puis <b>Exporter</b> ou cliquez sur le bouton <b>Exporter</b>
+	<img src="../images/export_16.gif">&nbsp;;</li>
+	<li>la fenêtre de choix d'exportation s'affiche&nbsp;;</li>
+	<li>choisissez le format d'exportation, <b>MPX</b> ou <b>MSPDI</b> et validez;</li>
+	<li>choisissez l'endroit où le fichier sera exporté et validez.</li>
+</ul>
+<center><img src="../images/exportChooserMS.png" align="middle"></center>
+<b>N.B.</b>
+<ul>
+	<li>le format <b>MPX</b> se lit avec toutes les versions de Microsoft&reg; Project et écrit par toute les versions jusqu'à Microsoft Project 98&nbsp;;</li>
+	<li>le format <b>MSPDI</b> est le format XML de Microsoft&reg; pour stocker des données de projet. Microsoft&reg; Office Project 2002 et Microsoft&reg; Office Project 2003 peuvent lire et écrire des fichiers MSPDI.
+</ul>
+
+
+
+</body>
+</html>

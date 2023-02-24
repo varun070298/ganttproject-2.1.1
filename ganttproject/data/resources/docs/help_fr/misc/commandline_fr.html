@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>Ligne de commande</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body>
+
+<H3>Ligne de commande</H3>
+
+Ganttproject vous permet d'indiquer des instructions grâce à la ligne de
+commande.<br \>
+Essayez <b>&quot;java -jar ganttproject.jar --help&quot;</b>  pour afficher les
+paramètres utilisables.<br \><br \>
+
+Vous pouvez donner directement le nom du fichier XML à ouvrir.<br \>
+Ex.&nbsp;: <b>java -jar ganttproject.jar monprojet.xml</b><br \><br \>
+
+Une autre possibilité est d'exporter le projet en pages HTML, document PDF ou
+en images PNG/JPG.<br \>
+Ex.&nbsp;: <b>java -jar ganttproject.jar -html monprojet.xml directory</b>  pour
+exporter le projet en pages web dans la directorie spécifiée&nbsp;;<br \>
+Ex.&nbsp;: <b>java -jar ganttproject.jar -pdf monprojet.xml monprojet.pdf</b>  pour
+exporter le projet en monprojet.pdf&nbsp;;<br \>
+Ex.&nbsp;: <b>java -jar ganttproject.jar -png  myproject.xml myproject.png</b>  pour
+exporter le projet en monprojet.png&nbsp;;<br \>
+Ex.&nbsp;: <b>java -jar ganttproject.jar -jpg monprojet.xml monprojet.jpg</b>  pour
+exporter le projet en monprojet.jpg.<br \><br \>
+
+Avec l'exportation HTML vous pouvez spécifier une directorie XSL pour
+l'utilisation des arguments XSL.<br \><br \>
+
+Dans tous les cas le fichier projet peut être stocké sur le disque dur ou sur
+une adresse URL. Si l'adresse est protégée par un mot de passe, vous pouvez
+utiliser cette méthode&nbsp;:<br \>
+Ex.&nbsp;: <b>java -jar ganttproject.jar http://nomutilisateur:password@exemple.com/nomfichier</b><br \>
+
+
+</body>
+</html>

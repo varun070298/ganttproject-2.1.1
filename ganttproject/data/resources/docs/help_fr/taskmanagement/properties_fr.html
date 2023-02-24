@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>&Eacute;dition des propriétés</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body>
+
+<h3>&Eacute;dition des propriétés</h3>
+
+<h4>Général</h4>
+<p>
+Pour chaque tâche vous pouvez éditer les propriétés grâce à une boîte de
+dialogue en utilisant le menu <b>Tâches</b> puis <b>Propriétés
+tâches</b>, ou en double-cliquant sur le nom de la tâche ou sur sa barre
+graphique.</p>
+<p>La boîte de dialogue permet d'éditer le nom, la durée, le pourcentage
+d'exécution, la priorité, les dates de début, de fin et une date relative à une contrainte, 
+la couleur sur le graphique, son lien internet etc.</p>
+<center><img src="../images/propertiesGeneral.png"></center>
+<p>Vous pouver également spécifier que votre tâche est un point bilan en cochant la case <b>
+Point bilan</b>.</p>
+
+<h4>Prédécesseurs</h4>
+<p>Vous pouvez également définir les relations entre les tâches en
+choisissant les prédécesseurs. 
+<center><img src="../images/propertiesPredecessors.png"></center>
+<p> Quatre types de relations sont possibles&nbsp;: 
+<ul>
+	<li>Fin-Début&nbsp;;</li>
+	<li>Fin-Fin&nbsp;;</li>
+	<li>Début-Fin&nbsp;;</li>
+	<li>Début-Début.</li>
+</ul>
+</p>
+<p>Il est également possible de spécifier un écart dans la relation. Cet écart est compté en nombre de jours.
+<p>La suppression d'une relation de dépendance s'effectue en sélectionnant la relation à supprimer puis en cliquant 
+sur la croix <img src="../images/delete_16.gif">.</p>
+
+<h4>Ressources</h4>
+<p>
+Vous pouvez affecter des ressources à la tâche via l'onglet <b>Ressources</b>. Par défaut, la première ressource
+affectée sera responable de la tâche. Il est possible de décocher la case <b>Responsable</b> si on ne veut pas
+que cette ressource soit responsable. GanttProject vous permet de définir aucun ou plusieurs responsables pour
+les tâches.</p>
+<p> Par défaut la charge des ressources lors de leur affectation est de 100 %. Mais on peut très facilement modifier
+cette valeur.
+</p>
+<p>
+GanttProject vous permet de spécifier le rôle de chaque ressource au sein de chaque tâche qui lui est affectée.
+Par défaut, son rôle sera celui défini lors de la création de la ressource, mais vous pouvez choisir un
+autre rôle pour la ressource pour une tâche donnée.
+</p>
+<p>La suppression d'une affectation s'effectue en sélectionnant l'affectation à supprimer puis en cliquant 
+sur la croix <img src="../images/delete_16.gif">.
+
+<center><img src="../images/propertiesResources.png"></center>
+
+<h4>Colonnes personnalisées</h4>
+<p>L'onglet <b>Colonnes personnalisées</b> vous permet d'ajouter, supprimer, renommer et modifier les valeurs par
+défaut des colonnes personnalisées <b>pour toutes les tâches du projet</b>. Bien que cet onglet se trouve dans
+la fenêtre des propriétés d'une tâches les modifications effectuées concerneront toutes les tâches du projet.
+</p>
+
+<center><img src="../images/propertiesCustomCol.png"></center>
+
+</body>
+</html>

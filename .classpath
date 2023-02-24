@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ganttproject/src"/>
+	<classpathentry kind="src" path="ganttproject/test"/>
+	<classpathentry kind="src" path="org.ganttproject.chart.pert/src"/>
+	<classpathentry kind="src" path="org.ganttproject.impex.htmlpdf/src"/>
+	<classpathentry kind="src" path="org.ganttproject.impex.msproject/src"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/AppleJavaExtensions.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/commons-httpclient-contrib.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/commons-logging.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/commons-transaction-1.0.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/eclipsito.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/helpgui-1.1.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/jakarta-poi-2.5.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/jakarta-slide-webdavlib-2.1.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/jdnc-modifBen.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/jgoodies-looks-1.2.2.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/core/xml-im-exporter1.1.jar"/>
+	<classpathentry kind="lib" path="ganttproject/lib/development/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.htmlpdf/lib/fop-font-metrics.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.htmlpdf/lib/fop.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.htmlpdf/lib/ganttproject-avalon.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.htmlpdf/lib/ganttproject-batik.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/jax-qname.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/jaxb-libs.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/mpxj.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/namespace.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/relaxngDatatype.jar"/>
+	<classpathentry kind="lib" path="org.ganttproject.impex.msproject/lib/mpxj/xsdlib.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

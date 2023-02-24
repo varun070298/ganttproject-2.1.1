@@ -1,0 +1,81 @@
+<html>
+<head>
+	<meta name="author" content="THOMAS Alexandre">
+	<title>Suivi de l'avancement</title>
+	<link rel=stylesheet type="text/css" href="../style.css">
+</head>
+<body>
+<h3>Suivi de l'avancement du projet</h3>
+
+<p>
+GanttProject permet d'effectuer un suivi de vos projets. À tout instant vous pouvez sauvegarder l'état
+courant du projet. Ces états sont conservés par GanttProject et vous pouvez, par la suite comparer l'état courant
+du projet à un état précédemment sauvé. Les différences entre les deux projets (le courant et l'état enregistré)
+sont visibles sur le diagramme de Gantt.
+</p>
+
+<h4>Enregistrement d'un état</h4>
+<ul>
+	<li>lorsque vous voulez enregistrer l'état courant en vue d'une
+	comparaison ultérieure cliquez sur le bouton <b>Enregistrer l'état</b>
+	<img src="../images/saveCurrentAsPrev_16.gif">&nbsp;dans la barre d'outils&nbsp;;</li>
+	<li>une boîte de dialogue s'ouvre et vous propose de choisir un nom pour votre enregistrement&nbsp;: <br \><br \>
+	<center><img src="../images/saveState1.png">&nbsp;</center><br \></li>
+	<li>entrez le nom souhaité et validez.</li>
+</ul>
+Lorque vous enregistrer plusieurs états, vous avez la possibilité d'écraser un enregistrement précédent&nbsp;:
+<ul>
+	<li>cliquez sur le bouton <b>Enregistrer l'état</b> <img src="../images/saveCurrentAsPrev_16.gif">&nbsp;dans la barre d'outils&nbsp;;</li>
+	<li>une boîte de dialogue légérement différente de la première fois s'ouvre&nbsp;: <br \><br \>
+	<center><img src="../images/saveState2.png">&nbsp;</center><br \></li>
+	<li>si vous sélectionnez un état précédent dans la liste déroulante et que vous validez,
+	il sera remplacé par le nouvel état.</li>
+</ul>
+
+<b>N.B.</b>&nbsp;: Le bouton <b>Enregistrer l'état</b> est grisé si aucun changement n'a été fait dans le projet.
+
+<h4>Comparer l'état courant à un état précédemment enregistré</h4>
+<p>
+Une fois que vous avez enregistré des états de votre projet, il est possible de comparer l'état courant
+du projet à chaque état enregistré.
+<ul>
+	<li>cliquez sur le bouton <b>Comparer à un état précédent</b> <img src="../images/comparePrev_16.gif">&nbsp;dans la barre d'outils&nbsp;;</li>
+	<li>une boîte de dialogue s'ouvre&nbsp;: <br \><br \>
+	<center><img src="../images/compareState1.png">&nbsp;</center><br \></li>
+	<li>vous pouvez désormais voir les différences sur le diagramme de Gantt.</li>
+</ul>
+</p>
+<p>
+Voici un exemple d'une comparaison entre le projet courant et un enregistrement&nbsp;: <br \>
+<center><img src="../images/compareState2.png">&nbsp;</center><br \>
+Le projet courant est affiché classiquement, de la même manière que d'habitude. Les différences entre le 
+projet courant et l'état sélectionné sont matérialisées par des rectangles moins épais
+(<img src="../images/compareRect.png">) qui se situent en dessous du rectangle de référence.
+<ul>
+	<li><img src="../images/compareEarly.png">&nbsp;: la tâche courante est en avance par rapport à l'état précédent&nbsp;;</li>
+	<li><img src="../images/compareRect.png">&nbsp;: la tâche courante se termine à la même date que l'état prédédent&nbsp;;</li>
+	<li><img src="../images/compareLate.png">&nbsp;: la tâche courante est en retard par rapport à l'état précédent.</li>
+</ul>
+</p>
+<p>
+Il est donc aisé de voir quelles sont les tâches qui sont en avance et celles qui sont en retard par
+rapport à un état précédent. Par contre, les dépendances entre les tâches ne sont pas représentées entre
+les tâches de comparaison.
+</p>
+
+<h4>Supprimer un état précédemment enregistré</h4>
+<p>
+Il est possible de supprimer des états précédemment enregistrés&nbsp;:
+<ul>
+	<li>cliquez sur le bouton <b>Comparer à un état précédent</b> <img src="../images/comparePrev_16.gif">&nbsp;dans la barre d'outils&nbsp;;</li>
+	<li>la boîte de dialogue s'ouvre&nbsp;: <br \><br \>
+	<center><img src="../images/compareState1.png">&nbsp;</center><br \></li>
+	<li>sélectionnez l'enregistrement que vous voulez supprimer&nbsp;;</li>
+	<li>cliquez sur la croix <img src="../images/delete_16.gif">.</li>
+</ul>
+</p>
+
+
+
+</body>
+</html>
